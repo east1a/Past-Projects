@@ -1,0 +1,7 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+edu---work	1	0	0	0	0	0	0	0	0	0	0	0	0
+home---edu	1	0	0	0	0	0	0	0	0	0	0	0	0
+shop---home	1	0	0	0	0	0	0	0	0	0	0	0	0
+work---shop	1	0	0	0	0	0	0	0	0	0	0	0	0
+
+average trip duration: 175.5 seconds = 00:02:55

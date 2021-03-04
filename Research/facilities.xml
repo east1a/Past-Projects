@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE facilities SYSTEM "http://www.matsim.org/files/dtd/facilities_v1.dtd">
+
+<facilities name="AkbasVillageFacilities">
+
+   <facility id="200" x="2000" y="3000">
+		<activity type="home">
+		</activity>
+
+	</facility>
+
+	<facility id="201" x="3000" y="3000">
+		<activity type="home">
+		</activity>
+
+	</facility>
+
+	<facility id="202" x="4000" y="3000">
+		<activity type="home">
+		</activity>
+
+	</facility>
+
+	<facility id="203" x="5000" y="3000">
+		<activity type="home">
+		</activity>
+
+	</facility>
+
+	<facility id="204" x="6000" y="3000">
+		<activity type="home">
+		</activity>
+
+	</facility>
+
+   
+	<facility id="205" x="2000" y="1000">
+		<activity type="work">
+		</activity>
+
+	</facility>
+
+	<facility id="206" x="3000" y="1000">
+		<activity type="work">
+		</activity>
+
+	</facility>
+
+	<facility id="207" x="4000" y="1000">
+		<activity type="shop">
+		</activity>
+
+	</facility>
+
+	<facility id="208" x="5000" y="1000">
+		<activity type="work">
+		</activity>
+
+	</facility>
+
+	<facility id="209" x="6000" y="1000">
+		<activity type="edu">
+		</activity>
+
+	</facility>
+
+</facilities>

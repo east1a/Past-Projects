@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd">
+
+<plans name="standardPlans.xml">
+
+	<person id="1" ><!--sex="m" age="46" license="yes" car_avail="always" employed="yes"-->
+
+		<travelcard type = "unknown"/>
+		
+		<desires>
+         <actDur type = "edu" dur = "2:00:00" />
+		</desires>
+		<knowledge desc="created by org.matsim.population.algorithms.PlansDefineKnowledge">
+			<activity type="edu">
+				<location id="209">
+				</location>
+			</activity>
+
+			<activity type="home">
+				<location id="200">
+				</location>
+			</activity>
+
+			<activity type="shop">
+				<location id="207">
+				</location>
+			</activity>
+
+			<activity type="work">
+				<location id="205">
+				</location>
+			</activity>
+
+		</knowledge>
+
+		<plan selected="yes">
+			<act type="home" x="2000" y="3000" start_time="00:00:00" dur="07:00:00" end_time="07:00: 00" />
+			<leg num="0" mode="car" dep_time="07:00: 00" trav_time="00:00:00" arr_time="07:00: 00">
+			</leg>
+			<act type="edu" x="6000" y="1000" start_time="07:00: 00" dur="06:00:00" end_time="13:00: 00" />
+			<leg num="1" mode="car" dep_time="13:00: 00" trav_time="00:00:00" arr_time="13:00: 00">
+			</leg>
+			<act type="work" x="2000" y="1000" start_time="13:00: 00" dur="06:00:00" end_time="19:00: 00" />
+			<leg num="2" mode="car" dep_time="19:00: 00" trav_time="00:00:00" arr_time="19:00: 00">
+			</leg>
+         <act type="shop" x="4000" y="1000" start_time="19:00: 00" dur="01:00:00" end_time="20:00: 00" />
+			<leg num="3" mode="car" dep_time="20:00: 00" trav_time="00:00:00" arr_time="19:00: 00">
+			</leg>
+
+			<act type="home" x="2000" y="3000" start_time="20:00: 00" dur="04:00:00" end_time="24:00:00" />
+		</plan>
+
+	</person>
+
+</plans>
